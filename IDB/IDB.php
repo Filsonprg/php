@@ -5,8 +5,8 @@ class MySQL implements IDB
     private $conn;
     
     public function connect(
-        string $host = "",
-        string $username = "",
+        string $host = "127.0.0.1",
+        string $username = "root",
         string $password = "",
         string $database = ""
     ): ?static {
